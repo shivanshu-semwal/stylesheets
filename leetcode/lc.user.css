@@ -12,7 +12,7 @@
 @var checkbox difficulty 'Hide difficulty' 1
 ==/UserStyle== */
 
-@-moz-document domain("leetcode.com/problems") {
+@-moz-document domain("leetcode.com") {
   * {
     font-family: "Iosevka" !important;
   }
