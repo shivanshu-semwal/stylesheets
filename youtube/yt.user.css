@@ -1,0 +1,9 @@
+@-moz-document domain("www.youtube.com") {
+    /* Insert code here... */
+    /*.ytp-doubletap-ui.ytp-time-seeking {
+        background: red !important;   
+    }*/
+    .ytp-doubletap-static-circle {
+        display: none !important;
+    }
+}

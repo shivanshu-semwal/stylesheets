@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Inconsolata&family=Roboto+Slab&display=swap");
+
+* {
+  font-family: "Alfa Slab One", cursive !important;
+  font-family: "Inconsolata", monospace !important;
+  font-family: "Roboto Slab", serif !important;
+}
+/*.tutorial-toc{
+    visibility: hidden  !important;
+    max-height: 0 !important;
+}*/
+
+.mui-col-md-6 {
+  width: 75%;
+}
+
+.mini-logo {
+  visibility: hidden !important;
+  max-height: 0 !important;
+}
+
+body
+  > div.mui-container-fluid.content
+  > div
+  > div.mui-col-md-3.tutorial-toc
+  > ul:nth-child(2)
+  > li.heading {
+  visibility: hidden !important;
+  max-height: 0 !important;
+}
+
+#chapter-menu {
+  visibility: hidden !important;
+  max-height: 0 !important;
+}
+
+#google-right-ads {
+  visibility: hidden !important;
+  max-height: 0 !important;
+}
