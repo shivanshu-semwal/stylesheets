@@ -9,7 +9,7 @@
 @license      MIT
 @preprocessor stylus
 
-@var difficulty 'Hide difficulty' 1
+@var checkbox difficulty 'Hide difficulty' 1
 ==/UserStyle== */
 
 @-moz-document domain("leetcode.com/problems") {
