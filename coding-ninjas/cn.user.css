@@ -5,11 +5,17 @@
 @description  Remove clutter from geeksforgeeks.
 @homepageURL  https://github.com/shivanshu-semwal/stylesheets
 @supportURL   https://github.com/shivanshu-semwal/stylesheets/issues
-@updateURL    https://github.com/shivanshu-semwal/stylesheets/coding-ninjas/cn.user.css
 @author       Shivanshu Semwal
 @license      MIT
+
+@var checkbox navigation 'Navigation Hide' 1
+
 ==/UserStyle== */
 
-codingninjas-header{
-    display: none;
+@-moz-document domain("www.codingninjas.com") {
+  if(navigation) {
+    codingninjas-header {
+      display: none;
+    }
+  }
 }
