@@ -1,0 +1,68 @@
+/* ==UserStyle==
+@name         gfg
+@version      1.0.1
+@namespace    https://github.com/shivanshu-semwal
+@description  Remove clutter from geeksforgeeks.
+@homepageURL  https://github.com/shivanshu-semwal/stylesheets
+@supportURL   https://github.com/shivanshu-semwal/stylesheets/issues
+@author       Shivanshu Semwal
+@updateURL    https://github.com/shivanshu-semwal/stylesheets/gfg/gfg.user.css
+@license      MIT
+==/UserStyle== */
+
+@-moz-document domain("www.geeksforgeeks.org") {
+  /* removing the top header */
+  .header-main__slider {
+    display: none;
+  }
+
+  /* removing the space occupied by the header*/
+  #main {
+    padding: 0;
+  }
+
+  /* removing the left sidebar*/
+  .sideBar {
+    display: none;
+  }
+
+  /* removing the right sidebar*/
+  .rightBar {
+    display: none;
+  }
+
+  /* extending the width of the sidebar*/
+  .article--viewer {
+    width: 100vw;
+    /*     width: 100%; */
+    overflow: none;
+  }
+
+  /* the default font for the code*/
+  .syntaxhighlighter a,
+  .syntaxhighlighter code,
+  .syntaxhighlighter div,
+  .syntaxhighlighter table,
+  .syntaxhighlighter table caption,
+  .syntaxhighlighter table tbody,
+  .syntaxhighlighter table td,
+  .syntaxhighlighter table thead,
+  .syntaxhighlighter table tr,
+  .syntaxhighlighter textarea {
+    font-family: "Iosevka Term", "Ubuntu Mono", Consolas, "Bitstream Vera Sans Mono", "Courier New",
+      Courier, monospace !important;
+  }
+  /* * {
+    font-family: "Iosevka Term" !important;
+}
+.code-container {
+    font-family: "Iosevka Term" !important;
+}
+.leftBar {
+    flex-basis: 100% !important;
+    max-width: 100% !important;
+}
+.rightBar {
+    display: none !important;
+} */
+}

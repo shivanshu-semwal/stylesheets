@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name         moodle
+@version      1.0.1
+@namespace    https://github.com/shivanshu-semwal
+@description  Remove clutter from geeksforgeeks.
+@homepageURL  https://github.com/shivanshu-semwal/stylesheets
+@supportURL   https://github.com/shivanshu-semwal/stylesheets/issues
+@author       Shivanshu Semwal
+@license      MIT
+==/UserStyle== */
+
+@-moz-document domain("45.116.207.207") {
+    * {
+        font-family: "Iosevka Nerd Font" !important;
+    }
+}

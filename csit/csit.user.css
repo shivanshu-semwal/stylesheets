@@ -1,0 +1,68 @@
+/* ==UserStyle==
+@name         csit
+@version      1.0.1
+@namespace    https://github.com/shivanshu-semwal
+@description  Remove clutter from csit.
+@homepageURL  https://github.com/shivanshu-semwal/stylesheets
+@supportURL   https://github.com/shivanshu-semwal/stylesheets/issues
+@author       Shivanshu Semwal
+@license      MIT
+==/UserStyle== */
+
+@-moz-document domain("csitgeu.in") {
+    * {
+        font-family: "Ubuntu" !important;
+        font-size: 16px;
+    }
+    .site-title {
+        display: none;
+    }
+    .search-toggle {
+        display: none !important;
+    }
+    .site::before {
+        display: none !important;
+    }
+    .site-footer {
+        display: none !important;
+    }
+    #page {
+        margin: auto !important;
+    }
+    #secondary {
+        display: none !important;
+    }
+    #content {
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    #post {
+        margin: 0px;
+        max-width: none !important;
+    }
+    #primary-navigation {
+        font-size: 13px;
+        margin: 0px;
+        float: none;
+    }
+    .hentry {
+        max-width: none !important;
+    }
+    .site-content .entry-header {
+        max-width: none;
+    }
+    .site-content .entry-content {
+        max-width: none;
+    }
+    .navigation.post-navigation {
+        display: none !important;
+    }
+    .entry-header .entry-meta {
+        margin: 0px;
+    }
+    /* remove the play store app button */
+    .entry-content>p:nth-child(4)>a:nth-child(1) {
+        display: none;
+    }
+}
