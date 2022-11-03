@@ -2,20 +2,19 @@
 @name         cn
 @version      1.0.1
 @namespace    https://github.com/shivanshu-semwal
-@description  Remove clutter from geeksforgeeks.
+@description  Remove clutter from coding-ninja.
 @homepageURL  https://github.com/shivanshu-semwal/stylesheets
 @supportURL   https://github.com/shivanshu-semwal/stylesheets/issues
 @author       Shivanshu Semwal
 @license      MIT
-
+@preprocessor stylus
 @var checkbox navigation 'Navigation Hide' 1
 
 ==/UserStyle== */
-
 @-moz-document domain("www.codingninjas.com") {
-  if(navigation) {
-    codingninjas-header {
-      display: none;
-    }
+  if navigation {
+      codingninjas-header {
+          display: none;
+      }
   }
 }

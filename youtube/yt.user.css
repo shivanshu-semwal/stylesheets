@@ -1,9 +1,21 @@
+/* ==UserStyle==
+@name         moodle
+@version      1.0.1
+@namespace    https://github.com/shivanshu-semwal
+@description  Remove clutter from youtube.
+@homepageURL  https://github.com/shivanshu-semwal/stylesheets
+@supportURL   https://github.com/shivanshu-semwal/stylesheets/issues
+@author       Shivanshu Semwal
+@license      MIT
+@preprocessor stylus
+==/UserStyle== */
+
 @-moz-document domain("www.youtube.com") {
-    /* Insert code here... */
-    /*.ytp-doubletap-ui.ytp-time-seeking {
+  /* Insert code here... */
+  /*.ytp-doubletap-ui.ytp-time-seeking {
         background: red !important;   
     }*/
-    .ytp-doubletap-static-circle {
-        display: none !important;
-    }
+  .ytp-doubletap-static-circle {
+    display: none !important;
+  }
 }

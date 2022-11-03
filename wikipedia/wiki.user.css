@@ -1,3 +1,15 @@
+/* ==UserStyle==
+@name         moodle
+@version      1.0.1
+@namespace    https://github.com/shivanshu-semwal
+@description  Remove clutter from wikipedia.
+@homepageURL  https://github.com/shivanshu-semwal/stylesheets
+@supportURL   https://github.com/shivanshu-semwal/stylesheets/issues
+@author       Shivanshu Semwal
+@license      MIT
+@preprocessor stylus
+==/UserStyle== */
+
 @-moz-document domain("wikipedia.org") {
   /* This moves the sidebar off-screen */
   #mw-panel {

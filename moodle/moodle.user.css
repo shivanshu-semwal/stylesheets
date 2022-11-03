@@ -2,11 +2,12 @@
 @name         moodle
 @version      1.0.1
 @namespace    https://github.com/shivanshu-semwal
-@description  Remove clutter from geeksforgeeks.
+@description  Remove clutter from moodle.
 @homepageURL  https://github.com/shivanshu-semwal/stylesheets
 @supportURL   https://github.com/shivanshu-semwal/stylesheets/issues
 @author       Shivanshu Semwal
 @license      MIT
+@preprocessor stylus
 ==/UserStyle== */
 
 @-moz-document domain("45.116.207.207") {

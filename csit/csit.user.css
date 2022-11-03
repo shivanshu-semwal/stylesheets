@@ -7,6 +7,7 @@
 @supportURL   https://github.com/shivanshu-semwal/stylesheets/issues
 @author       Shivanshu Semwal
 @license      MIT
+@preprocessor stylus
 ==/UserStyle== */
 
 @-moz-document domain("csitgeu.in") {
