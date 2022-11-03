@@ -1,0 +1,37 @@
+/* ==UserStyle==
+@name         leetcode
+@version      1.0.1
+@namespace    https://github.com/shivanshu-semwal
+@description  Remove clutter from lc.
+@homepageURL  https://github.com/shivanshu-semwal/stylesheets
+@supportURL   https://github.com/shivanshu-semwal/stylesheets/issues
+@author       Shivanshu Semwal
+@license      MIT
+@preprocessor stylus
+
+@var difficulty 'Hide difficulty' 1
+==/UserStyle== */
+
+@-moz-document domain("leetcode.com/problems") {
+  * {
+    font-family: "Iosevka" !important;
+  }
+
+  if difficulty {
+    div[diff="medium"] {
+      display: none;
+    }
+
+    div[diff="easy"] {
+      display: none;
+    }
+
+    div[diff="hard"] {
+      display: none;
+    }
+
+    td[label="Difficulty"] {
+      display: none;
+    }
+  }
+}

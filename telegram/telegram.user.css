@@ -1,0 +1,35 @@
+/* ==UserStyle==
+@name         telegram
+@version      1.0.1
+@namespace    https://github.com/shivanshu-semwal
+@description  Remove clutter from telegram.
+@homepageURL  https://github.com/shivanshu-semwal/stylesheets
+@supportURL   https://github.com/shivanshu-semwal/stylesheets/issues
+@author       Shivanshu Semwal
+@license      MIT
+@preprocessor stylus
+==/UserStyle== */
+
+@-moz-document domain("web.telegram.org") {
+  /* Insert code here... */
+  * {
+    font-family: "Iosevka Nerd Font";
+  }
+
+  html.night {
+    --primary-color: #6272a4;
+    --message-out-background-color: #3b4252;
+    --body-background-color: #282a36;
+    --surface-color: #282a36;
+    --input-search-background-color: #282a36;
+  }
+
+  input,
+  [contenteditable="true"] {
+    caret-color: #bd93f9;
+  }
+
+  .menu-horizontal-div-item .rp {
+    color: #ffffff;
+  }
+}
